@@ -1,3 +1,7 @@
 export default function HomePage() {
-  return <h1>Hola mundo</h1>;
+  return (
+    <div>
+      <h1 className="text-2xl font-bold">DASHBOARD</h1>
+    </div>
+  );
 }

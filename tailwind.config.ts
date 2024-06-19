@@ -7,8 +7,16 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        background: "hsl(var(--background))",
+      },
+      transitionDelay: {
+        DEFAULT: "150ms",
+      },
+    },
   },
+  important: true,
   plugins: [],
 };
 export default config;

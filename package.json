@@ -12,6 +12,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@flaticon/flaticon-uicons": "3.3.1",
+    "@szhsin/react-menu": "4.1.0",
+    "class-variance-authority": "^0.7.0",
     "clsx": "2.1.1",
     "next": "14.2.4",
     "react": "18",
